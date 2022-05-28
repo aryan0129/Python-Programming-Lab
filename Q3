@@ -1,4 +1,4 @@
-2.Write a program in python to convert the given list into 3*3 array.
+3.Write a program in python to convert the given list into 3*3 array.
 sol:
 import numpy as np
 a=list(map(int,input().split()))
