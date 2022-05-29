@@ -1,0 +1,7 @@
+Q29. Write a function in Python to print all the even numbers for an inputted range as arguments.
+  
+  Code:
+  def even(ll,ul):
+    for i in range(ll,ul+1):
+      if i %2==0:
+        print(i)
