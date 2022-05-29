@@ -1,0 +1,17 @@
+Q10. Write a Python function to do the operation with taking thee numbers and the operator string as arguments.
+Code:
+   def cal(num1,num2,op):
+    if op=="+":
+      return num1+num2
+    elif op=="-":
+      return num1-num2
+     elif op=="*":
+      return num1*num2
+     elif op=="/":
+      return num1/num2
+     elif op=="%":
+      return num1%num2
+     else:
+      print("invalid operator")
+    
+    
