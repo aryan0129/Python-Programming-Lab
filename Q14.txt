@@ -1,0 +1,10 @@
+Q14. We consider the Pythons dictionary which contains a personal data :
+personalData = {'Name' : 'David' , 'Email' : 'david@gmail.com' , 'Phone' : 33354587 , age' : 27 }
+Write a Python program that save data contained in personalData into a file called data.txt . 
+
+Code:
+personalData = {'Name' : 'David' , 'Email' : 'david@gmail.com' , 'Phone' : 33354587 , 'age' : 27 }
+file = open("data.txt" , 'w')
+for key , value in personalData.items() :
+    file.write(key + " : " + str(personalData[key]) + '\n')
+file.close()
