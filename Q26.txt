@@ -1,5 +1,6 @@
 Q26. Write a Python function to print the sum of digits of a number.
- 
+SOLUTION:
+
 Code:
  def sumnum(num):
   c=0
@@ -8,4 +9,5 @@ Code:
     c=c+s
     n=n//10
    return c
+   
    
