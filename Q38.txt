@@ -1,0 +1,6 @@
+Q38. Write a python program to find the area of a circle.
+
+Code:
+from math import pi
+def circle(radius):
+  return pi*radius*radius
