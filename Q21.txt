@@ -1,0 +1,10 @@
+Q21. Write a function in Python that takes a list of integers as a parameter and returns a dictionary whose keys are the list integers and whose values are "even" or "odd" depending on the number parity. 
+
+Code:
+dictParity = dict()
+    for x in l:
+        if x%2 == 0:
+            dictParity[x] = 'Pair'
+        else:
+            dictParity[x] = 'Impair'
+    print(dictParity)
