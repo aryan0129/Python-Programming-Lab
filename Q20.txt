@@ -1,0 +1,15 @@
+Q20. We cosider the following dictionary of length N containing the students names as keys and their score lists as key values:
+d = {'student1': listNote1, 'students2': listNotes2, ..., 'studentN': listNoteN}
+Write a Python program that transforms this dictionary by replacing the score lists with their averages.
+
+Code:
+def meanList (L):
+  mean = 0 
+  n = len (L)
+  for x in L: 
+    mean = x + mean 
+    mean = mean/n 
+  return mean
+d = {'student1': [14, 16, 18], 'students2': [12, 15, 17], 'student3': [16, 16, 13]} 
+d [key] = meanList(d [key])
+print ("The new dictionary is d =", d) 
