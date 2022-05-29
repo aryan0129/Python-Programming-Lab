@@ -1,0 +1,10 @@
+Q12. Write a Python program that asks the user to enter a text and return him a dictionary whose keys are the words of the text entered and the values are the reverse of the words that make up the text. ExWrite a Python program that asks the user to enter a text and return him a dictionary whose keys are the words of the text entered and the values are the reverse of the words that make up the text.
+
+Code:
+T = input("Type a some text")
+listWords = T.split(' ')
+d= dict({})
+for word in listWords:
+    reverseWord = word[::-1]
+    d[word] = reverseWord
+print("The obtained dictionary is d = " , d)
