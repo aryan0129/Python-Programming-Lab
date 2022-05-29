@@ -1,0 +1,5 @@
+Q28. Write a function to return the ascii character of a number.
+  
+  Code:
+  def ascii(n):
+    return chr(n)
