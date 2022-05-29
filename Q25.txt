@@ -1,0 +1,8 @@
+Q25. Write a python function to check pallindrome.
+  
+Code:
+def pall(s):
+    if s==s[::-1]:
+      print("pallindrome")
+    else:
+      print("Not a Pallindrome")
