@@ -1,0 +1,10 @@
+Q23. Write a Python function to print factorial of an inputted number.
+
+Code:
+def factorial(n):
+  fact=1
+  s=1
+  for i in range(n):
+    s=s*fact
+    fact=fact+1
+  return s
