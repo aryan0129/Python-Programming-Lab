@@ -1,0 +1,13 @@
+Q30. Write a python function to check whether a character is a capital aphabet, small alphabet or a number or a special character with character inputted as an argument.
+   
+Code:
+   def check(ch):
+    if ord(ch)>=97 and ord(ch)<=122:
+      s="Small alphabet")
+    if ord(ch)>=65 and ord(ch)>=90:
+      s="Capital alphabet"
+    if ord(ch)>=49 and ord(ch)<=57:
+      s="Number"
+    else:
+      s="special character"
+    return s
