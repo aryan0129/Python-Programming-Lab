@@ -1,0 +1,9 @@
+Q32. Write a Python program to count the number of lines in a text file.
+
+Code:
+def file(fn):
+        with open(fn) as f:
+                for i, l in enumerate(f):
+                        pass
+        return i + 1
+print("Number of lines in the file: ",file("test.txt"))
