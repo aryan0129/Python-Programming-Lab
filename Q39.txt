@@ -1,0 +1,8 @@
+Q39. Write a Python program to find the value of ln x using log x from math module.
+
+
+Code:
+import math
+x=int(input("enter the integer:"))
+lnx=2.303*(math.log(x))
+print(lnx)
