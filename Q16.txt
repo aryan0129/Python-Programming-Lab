@@ -1,0 +1,20 @@
+Q16.Write a program in Python that asks the user to enter ten integers of their choice and return them a dictionary whose keys are the entered integers and whose values are 'prime' or 'not prime' depending on the entered integer. 
+
+Code:
+def isPrim(n):
+    numberDivisors = 0
+    for i in range(1 , n + 1):
+        if ( n%i == 0 ):
+            numberDivisors = numberDivisors + 1
+    if (numberDivisors == 2 ):
+        return True
+    else:
+        return False
+d = dict({})
+for i in range(0 , 10):
+    n = int(input("Type an integer : " ))
+    if (isPrim(n)):
+        d[n] = "prime"
+    else:
+        d[n] = "not prime"
+print(d)
