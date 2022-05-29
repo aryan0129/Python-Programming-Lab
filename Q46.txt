@@ -1,0 +1,9 @@
+Q46. Write a python program to shuffle a list.
+
+Code:
+import random
+
+mylist = ["apple", "banana", "cherry"]
+random.shuffle(mylist)
+
+print(mylist) 
