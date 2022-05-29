@@ -1,0 +1,8 @@
+Q15.Write a program in Python that asks the user to enter a string, and return him a dictionary whose keys are the characters in the string entered and the values are the number of occurrences of the characters in the string.
+
+Code:
+s = input ("Enter some string s : ")
+d = dict ({})
+for x in s:
+    d [x] = s.count(x)
+print (d)
