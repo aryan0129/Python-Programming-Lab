@@ -1,0 +1,8 @@
+Q13. Given a dictionary d whose key values are lists. Write a Python program that transforms the dictionary d by sorting the lists.
+
+Code:
+d = {'a1': [21, 17, 22, 3], 'a2': [11, 15, 8, 13], 'a3': [7, 13, 2, 11], 'a4': [22,14,7,9]}
+for key , value in d.items():
+    value.sort()
+    d[key] = value
+print("The new dictionary is d = " , d)
