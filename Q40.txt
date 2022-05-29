@@ -1,0 +1,7 @@
+Q40. Write a python program to find the tangent of a given number.
+
+Code:
+import math as m:
+x=int(input("enter the number"))
+tanx=m.tan(x)
+print(tanx)
