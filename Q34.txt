@@ -1,0 +1,8 @@
+Q34. Write a Python program to read an entire text file.
+
+Code:
+def read(fn):
+        txt = open(fn)
+        print(txt.read())
+
+read('test.txt')
