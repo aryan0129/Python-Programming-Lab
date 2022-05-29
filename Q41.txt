@@ -1,0 +1,8 @@
+Q41. two functions can have same values at two different points check whether sin and cos functions have same values at 60?
+
+Code:
+import math
+if math.sin(60)==math.cos(60):
+  print('Same")
+ else:
+  print("Different")
