@@ -1,0 +1,7 @@
+Q45. Write a python program to generate a random color from a list of colors.
+
+Code:
+import random
+l=['red','yellow','green','blue']
+random_num = random.choice(l)
+print(random_num)
