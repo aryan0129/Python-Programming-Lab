@@ -1,0 +1,11 @@
+Q50. Write try except block for zero division error.
+
+Code:
+ a = 5
+ b = 0
+ try:
+    print(a/b)
+ except ZeroDivisionError:
+    print(“You can’t divide with 0”)
+
+
