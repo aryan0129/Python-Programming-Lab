@@ -1,0 +1,7 @@
+Q22. Write a Python Function to take a number and power as arguments and return the value of number raised to the given power.
+
+Code:
+def power(num,po):
+  c=num**po
+  return c
+print(pow(2,3))
