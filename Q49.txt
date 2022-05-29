@@ -1,0 +1,7 @@
+ Q49. Write a python program to raise an error and stop the program if x is lower than 0.
+ 
+ Code:
+ x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero") 
